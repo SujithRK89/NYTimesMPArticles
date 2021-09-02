@@ -7,6 +7,11 @@ This README would normally document whatever steps are necessary to get NY Times
 This application is only for showcasing the coding standard and best practices of android development.
 App will have two screens, landing screen will be listing of most popular feeds from api and a detail screen.
 
+
+![Screenshot_1630621594](https://user-images.githubusercontent.com/64698918/131924185-9ca35d31-a6cd-44f9-95c4-120d59560534.png)
+![Screenshot_1630621597](https://user-images.githubusercontent.com/64698918/131924193-9179eeaf-22a0-48d4-bc20-7eeed0025b0b.png)
+
+
 ### Tools and Technology used ###
 
 * Android Studio (IDE)
