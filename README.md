@@ -24,7 +24,7 @@ App will have two screens, landing screen will be listing of most popular feeds 
 * Hilt (Dependency Injection)
 * Glide (Image loading)
 * Coroutine
-* LiveData
+* LiveData etc
 
 ### Imp Project Structure ###
 
