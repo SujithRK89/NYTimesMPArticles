@@ -75,7 +75,7 @@ $ sudo ./gradlew assembleDebug
 ### Code coverage ###
 
 * We can now get coverage (on Android Studio) by: right clicking in our project → Run Tests with Coverage. This will output our code coverage metrics.
-* To run Jacoco and sonarqube code coverage run the below commands in terminal
+* To run Jacoco and sonarqube code coverage run the below commands in terminal, Reports for each variant are available at $buildDir/reports/jacoco
 
 ```bash
 $ sudo ./gradlew jacocoTestReport
