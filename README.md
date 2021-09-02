@@ -72,3 +72,7 @@ git clone https://github.com/SujithRK89/NYTimesMPArticles.git
 
 * We can now get coverage (on Android Studio) by: right clicking in our project → Run Tests with Coverage. This will output our code coverage metrics.
 * To run Jacoco and sonarqube code coverage run the below commands in terminal
+
+```bash
+$ sudo ./gradlew jacocoTestReport
+```
