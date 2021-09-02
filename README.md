@@ -60,7 +60,7 @@ git clone https://github.com/SujithRK89/NYTimesMPArticles.git
 
   To build a debug version of NY Times Most Popular Android application, you can run below command from the root of repository. In a default project setup, the resulting apk can then be found in app/build/outputs/apk/app-debug.apk.
   
-  ```bash
+```bash
 $ sudo ./gradlew assembleDebug
 ```
 
