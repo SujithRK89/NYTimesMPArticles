@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/most_popular">
+    <fragment
+        android:id="@+id/most_popular"
+        android:name="com.srk.nytimes.ui.mostpopular.MostPopularFragment"
+        android:label="@string/ny_times_most_popular"
+        tools:layout="@layout/most_popular_fragment" >
+        <action
+            android:id="@+id/action_home_to_detail"
+            app:destination="@id/detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/detail"
+        android:name="com.srk.nytimes.ui.details.MostPopularDetailsFragment"
+        android:label="@string/details"
+        tools:layout="@layout/details_fragment" >
+        <argument
+            android:name="mostPopular"
+            app:argType="com.srk.nytimes.data.remote.model.MostPopular" />
+    </fragment>
+</navigation>
