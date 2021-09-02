@@ -23,7 +23,8 @@ App will have two screens, landing screen will be listing of most popular feeds 
 * Retrofit, Okhttp, Gson, Gson convertor (Network api call)
 * Hilt (Dependency Injection)
 * Glide (Image loading)
-* Coroutine etc
+* Coroutine
+* LiveData
 
 ### Imp Project Structure ###
 
